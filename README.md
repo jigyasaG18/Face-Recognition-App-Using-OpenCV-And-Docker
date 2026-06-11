@@ -10,7 +10,6 @@ This project automates the process of detecting and redacting faces in images us
 - [Application Purpose](#application-purpose-)
 - [Core Concepts & Techniques](#core-concepts--techniques-)
 - [Dependencies & Requirements](#dependencies--requirements-)
-  - [`requirements.txt`](#requirementstxt)
 - [Installation & Setup](#installation--setup-️)
 - [Usage](#usage-)
 - [Docker Deployment](#docker-deployment-)
@@ -125,12 +124,13 @@ This mounts your current directory into the container so that input images can b
 - **Content Moderation:** Filter out faces in user-generated content.
 - **Research & Development:** Prototype for more advanced privacy-preserving AI tools.
 
+This AI-powered system automatically detects and anonymizes faces in images and videos to enhance privacy. It features an intuitive interface for single or batch processing with direct download options, making it user-friendly and efficient. The streamlined design offers a clean, organized layout for an improved user experience, ensuring privacy protection is simple and accessible for all users.
+
 ---
 
 ## Contributing & Customization
 
 Feel free to extend the application:
-
 - Add support for videos or real-time camera feeds.
 - Implement a web interface or API.
 - Customize detection parameters or obfuscation methods.
