@@ -8,6 +8,15 @@ import pandas as pd
 import base64
 from ultralytics import YOLO
 
+
+import subprocess
+
+st.write(
+    subprocess.check_output(
+        ["pip", "freeze"]
+    ).decode()
+)
+
 st.markdown("""
 <style>
 
